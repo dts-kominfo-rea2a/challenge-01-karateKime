@@ -25,7 +25,7 @@ educationWendy = {
 favRestoMonica = ['Bento, Sushi, Pancake, Eggy, Tempura, Bento, Eggy, Padang, Tteok, Sushi, Sushi'];
 favRestoWendy = ['Tempura, Bento, Sushi, Pancake, Padang, Katsu, Geprek, Pancake, Eggy'];
 
-userMonica = {
+firstUser = {
     name : 'Monica',
     gender : 'Female',
     age : 17,
@@ -36,7 +36,7 @@ userMonica = {
     favoriteRestaurant : favRestoMonica[0]
 };
 
-userWendy = {
+secondUser = {
     name : 'Wendy',
     gender : 'Male',
     age : 23,
@@ -50,8 +50,8 @@ userWendy = {
 // // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
 
-users.push(userMonica);
-users.push(userWendy);
+users.push(firstUser);
+users.push(secondUser);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
