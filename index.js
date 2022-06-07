@@ -6,8 +6,11 @@
 // const secondUser = {};
 
 
-colorMonica = ['Yellow, Pink, White, Purple'];
-colorWendy = ['Blue, Black, Grey'];
+// colorMonica = ['Yellow, Pink, White, Purple'];
+// colorWendy = ['Blue, Black, Grey'];
+
+// favRestoMonica = ['Bento, Sushi, Pancake, Eggy, Tempura, Bento, Eggy, Padang, Tteok, Sushi, Sushi'];
+// favRestoWendy = ['Tempura, Bento, Sushi, Pancake, Padang, Katsu, Geprek, Pancake, Eggy'];
 
 educationMonica = {
  SD : 'name: SD 01, city: Jakarta, graduate: 2016',
@@ -22,18 +25,50 @@ educationWendy = {
     UNIV : 'name: Universitas Maju, city: Tangerang'
    };
 
-favRestoMonica = ['Bento, Sushi, Pancake, Eggy, Tempura, Padang, Tteok'];
-favRestoWendy = ['Tempura, Bento, Sushi, Pancake, Padang, Katsu, Geprek, Eggy'];
+let warnaMonica = new Set();
+warnaMonica.add("Yellow");
+warnaMonica.add("Pink");
+warnaMonica.add("White");
+warnaMonica.add("Purple");
+   
+let warnawendy = new Set();
+warnawendy.add("Blue");
+warnawendy.add("Black");
+warnawendy.add("Grey");
+
+let favRestoMonica = new Set();
+favRestoMonica.add("Bento");
+favRestoMonica.add("Sushi");
+favRestoMonica.add("Pancake");
+favRestoMonica.add("Eggy");
+favRestoMonica.add("Tempura");
+favRestoMonica.add("Bento");
+favRestoMonica.add("Eggy");
+favRestoMonica.add("Padang");
+favRestoMonica.add("Tteok");
+favRestoMonica.add("Sushi");
+favRestoMonica.add("Sushi");
+
+let favRestoWendy = new Set();
+favRestoWendy.add("Tempura");
+favRestoWendy.add("Bento");
+favRestoWendy.add("Sushi");
+favRestoWendy.add("Pancake");
+favRestoWendy.add("Padang");
+favRestoWendy.add("Katsu");
+favRestoWendy.add("Geprek");
+favRestoWendy.add("Pancake");
+favRestoWendy.add("Eggy");
 
 firstUser = {
     name : 'Monica',
     gender : 'Female',
     age : 17,
     email : 'monica@dingdong.com',
-    favoriteColor : colorMonica[0],
+    favoriteColor : [...warnaMonica],
     isHavePet : 'Yes',
     education : [educationMonica.SD, educationMonica.SMP, educationMonica.SMA],
-    favoriteRestaurant : favRestoMonica[0]
+    favoriteRestaurant : [...favRestoMonica]
 };
 
 secondUser = {
@@ -41,10 +76,10 @@ secondUser = {
     gender : 'Male',
     age : 23,
     email : 'wendy@dingdong.com@dingdong.com',
-    favoriteColor : colorWendy[0],
+    favoriteColor : [...warnawendy],
     isHavePet : 'Yes',
     education : [educationWendy.SD, educationWendy.SMP, educationWendy.SMA, educationWendy.UNIV],
-    favoriteRestaurant : favRestoWendy[0]
+    favoriteRestaurant : [...favRestoWendy]
 };
 
 // // TODO: Masukkan hasil akhir dari kedua user di sini
