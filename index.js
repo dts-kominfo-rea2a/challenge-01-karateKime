@@ -22,8 +22,8 @@ educationWendy = {
     UNIV : 'name: Universitas Maju, city: Tangerang'
    };
 
-favRestoMonica = ['Bento, Sushi, Pancake, Eggy, Tempura, Bento, Eggy, Padang, Tteok, Sushi, Sushi'];
-favRestoWendy = ['Tempura, Bento, Sushi, Pancake, Padang, Katsu, Geprek, Pancake, Eggy'];
+favRestoMonica = ['Bento, Sushi, Pancake, Eggy, Tempura, Padang, Tteok'];
+favRestoWendy = ['Tempura, Bento, Sushi, Pancake, Padang, Katsu, Geprek, Eggy'];
 
 firstUser = {
     name : 'Monica',
